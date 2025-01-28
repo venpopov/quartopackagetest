@@ -17,7 +17,11 @@ Suggests:
     gert,
     httpgd,
     jsonlite,
+    knitr,
     languageserver,
     reprex,
+    rmarkdown,
+    quarto,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+VignetteBuilder: knitr

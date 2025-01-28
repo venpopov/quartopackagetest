@@ -1,0 +1,23 @@
+---
+title: "myrmd"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{myrmd}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(quartopackagetest)
+```
+
+```{r}
+x <- readRDS("mtcars.rds")
+```

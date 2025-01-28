@@ -1,0 +1,22 @@
+---
+title: "myquarto"
+vignette: >
+  %\VignetteIndexEntry{myquarto}
+  %\VignetteEngine{quarto::html}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(quartopackagetest)
+```
+
+```{r}
+x <- readRDS("mtcars.rds")
+```
